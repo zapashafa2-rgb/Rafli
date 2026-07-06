@@ -157,27 +157,44 @@ body.dark .kontak{
 }
 @media (max-width:768px){
     body{
-        padding:20px;
+        padding:15px;
     }
     section{
         width:100%;
-        padding:25px;
+        padding:20px;
         margin:20px auto;
     }
     .isi{
+        display:flex;
         flex-direction:column-reverse;
         align-items:center;
         text-align:center;
+        gap:20px;
     }
     .foto img{
-        width:160px;
-        margin-bottom:20px;
+        width:150px;
     }
     .tentang{
         width:100%;
+        padding:20px;
     }
     .tentang ul{
         margin-left:0;
+    }
+    h2{
+        font-size:28px;
+    }
+    h4{
+        font-size:20px;
+    }
+    p,
+    li{
+        font-size:15px;
+        line-height:25px;
+    }
+    .kontak{
+        flex-direction:column;
+        gap:15px;
     }
     button{
         width:45px;
